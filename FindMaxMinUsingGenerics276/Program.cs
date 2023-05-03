@@ -8,7 +8,7 @@ namespace FindMaxMinUsingGenerics276
         {
             Console.WriteLine("Welcome to The Findmaxmin Generics program");
             Console.WriteLine("Select the program given below");
-            Console.WriteLine("\n1:Findmaxint\n2:FindFloatmaxmin\n3:FindMaxminstring\n4:Refactor1findmax");
+            Console.WriteLine("\n1:Findmaxint\n2:FindFloatmaxmin\n3:FindMaxminstring\n4:Refactor1findmax\n5:Refactor2Findvalue");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -26,6 +26,11 @@ namespace FindMaxMinUsingGenerics276
                     FindMaximum<float>.FindingMaximum(60.3f, 40.2f, 20.2f);
                     FindMaximum<string>.FindingMaximum("Skoda", "Swift", "Alto");
                     break;
+                case 5:
+                    FindMaxvalue<int>.Testmaximum(30, 40, 50);
+                    FindMaxvalue<float>.Testmaximum(50.4f, 40.2f, 33.6f);
+                    FindMaxvalue<string>.Testmaximum("Suresh", "Ajay", "Nikam");
+                    break;   
                 default:
                     Console.WriteLine("Please select the program given below");
                     break;
