@@ -23,8 +23,6 @@ namespace FindMaxMinUsingGenerics276
             {
                 Console.WriteLine("{2} is a greater number");
             }
-
-            
         }
     }
 }
